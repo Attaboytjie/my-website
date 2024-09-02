@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Modal</title>
+  <link rel="stylesheet" href="style1.css">
+  <style>
+    #modal.open {
+      display: block;
+    }
+    #overlay.open {
+      display: block;
+    }
+    </style>
+  <!-- TODO: 1. Link the script tag - done-->
+  <script defer src = script1.js></script>
+</head>
+<body>
+  <!-- Button Trigger/Open The Modal -->
+  <button id="open-modal-btn">Open Modal</button>
+
+  <!-- The Overlay -->
+  <div id="overlay"></div>
+
+  <!-- The Modal content including Btn to Close The Modal -->
+  <div id="modal">
+    <h3>This is a modal</h3>
+    <button id="close-modal-btn">Close Modal</button>
+  </div>
+</body>
+</html>
