@@ -4,3 +4,4 @@ A small change for a test
 Another small Change
 Demonstrate a conflict
 Git Stashing
+1st test using GitHub Desktop
